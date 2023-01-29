@@ -1,7 +1,7 @@
 # Yahtzee
 Ho implementato questo popolare gioco di dadi chiamato Yahtzee con React. 
-Per poter eseguire l'applicazione l'ho caricata al seguente indirizzo https://yahtzee-geck.web.app
-oppure va compilata da terminale.
+Per poter accedere all'applicazione lo si puòfare al seguente indirizzo https://yahtzee-geck.web.app
+oppure compilandola da terminale.
 
 ## COME SI GIOCA
 L'obiettivo del gioco è quello di completare tutte le righe della tabella con il massimo punteggio
