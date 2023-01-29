@@ -1,0 +1,112 @@
+.dice {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+  }
+  
+  .dice_container {
+    
+    font-family: "Graduate";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    height: 100%;
+   
+    
+  }
+
+  .buttonContainer{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin-left: 80px;
+    height: 100%;
+    
+  }
+
+  .decrease_score{
+    background-color: #F10086;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px #000;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .decrease_score:active{
+    box-shadow: 0 0 2px #000;
+    transform: translateY(2px);
+  }
+
+  .dice-active{
+    opacity: 0.2;
+  }
+
+  .icon{
+    color: white;
+  }
+
+  .rotate{
+    animation: spin 0.5s linear;
+  }
+  
+
+  @keyframes spin {
+    0%{
+      opacity: 0.01;
+    }
+    50%{
+      opacity: 0.2;
+    }
+    75%{
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 0.4;
+      rotate: 360deg;
+    }
+  }
+
+@media (max-width: 450px) {
+  
+  .dice {
+    height: 40px;
+  }
+  
+  .dice_container {
+    font-family: "Graduate";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 0px;
+    height: auto;
+    
+  }
+
+  .buttonContainer{
+    margin-left: 20px;
+  }
+
+  .decrease_score{
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    
+  }
+
+  
+}
+  

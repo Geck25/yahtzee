@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Luckiest Guy';
+  src: local('Luckiest Guy'), url(../font/Luckiest_Guy/LuckiestGuy-Regular.ttf) format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Cabin Sketch';
+  src: local('Cabin Sketch'), url(../font/Cabin_Sketch/CabinSketch-Regular.ttf) format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Graduate';
+  src: local('Cabin Sketch'), url(../font/Graduate/Graduate-Regular.ttf) format('truetype'); 
+}
+
+body {
+  background-color: #303030;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

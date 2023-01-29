@@ -1,0 +1,77 @@
+tr{
+    color: white;
+    justify-content: space-between;
+}
+
+.value{
+    font-size: 20px;
+}
+
+tr:hover:not(tr:nth-child(7)){
+    background-color: #18191A;
+    color: violet;
+}
+
+tr:hover:not(td:nth-of-type(2))  {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.row-active td:nth-of-type(1){
+    font-size: 25px;
+}
+
+.row-active td:nth-of-type(2){
+    font-size: 27px;
+}
+
+.row-active:not(tr:nth-child(7)){
+    cursor: not-allowed;
+    background-color: #18191A;
+    color: gray;
+}
+
+.row-active:hover:not(tr:nth-child(7)){
+    cursor: not-allowed;
+    pointer-events: initial;
+    background-color: #18191A;
+    color: gray;
+}
+
+@media (max-width: 450px) {
+    .row-disabled{
+        color: white;
+        justify-content: space-between;
+        width: 20px;
+    }
+
+    .score-name{
+        font-size: 17px;
+        width: 10px;
+    }
+    
+    .value{
+        width: 10px;
+        font-size: 15px;
+    }
+    
+    
+    .row-active td:nth-of-type(1){
+        font-size: 20px;
+    }
+    
+    .row-active td:nth-of-type(2){
+        font-size: 20px;
+    }
+    
+    .row-active:not(tr:nth-child(7)){
+        cursor: not-allowed;
+        background-color: 18191A;
+        border-radius: 25px;
+        color: gray;
+    }
+    
+    
+}
+
+
