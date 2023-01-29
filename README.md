@@ -2,9 +2,9 @@
 Ho implementato questo popolare gioco di dadi chiamato Yahtzee con React. 
 
 ## COME SI GIOCA
-L'obiettivo del gioco è quello di completare tutte le righe dei punteggi con il massimo punteggio
+L'obiettivo del gioco è quello di completare tutte le righe della tabella con il massimo punteggio
 possibile. Per completare una riga è possibile fare un massimo di tre lanci con la possibilità
-di poter bloccare (attraverso un click sopra il dado) i dadi che si ritengono che vadano bene. 
+di poter bloccare (attraverso un click sopra il dado) i dadi che si ritengano adeguati per completare la riga stessa. 
 
 ## PUNTEGGI
 I punteggi sono:
