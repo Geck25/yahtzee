@@ -1,5 +1,7 @@
 # Yahtzee
 Ho implementato questo popolare gioco di dadi chiamato Yahtzee con React. 
+Per poter eseguire l'applicazione l'ho caricata al seguente indirizzo https://yahtzee-geck.web.app
+oppure va compilata da terminale.
 
 ## COME SI GIOCA
 L'obiettivo del gioco è quello di completare tutte le righe della tabella con il massimo punteggio
@@ -18,8 +20,5 @@ I punteggi sono:
 - ***Scala massima***: ci deve essere una scala formata da tutti e cinque i dadi, punteggio fisso di 40 punti
 - ***Yahtzee***: tutti e cinque i dadi uguali, punteggio fisso di 50 punti
 - ***Chance***: nessuna combinazione in particolare, il punteggio è la somma di tutti i dadi. 
-
-##
-Per poter eseguire l'applicazione l'ho caricata al seguente indirizzo https://yahtzee-geck.web.app
-oppure va compilata da terminale. 
+ 
 
