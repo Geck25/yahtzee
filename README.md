@@ -1,5 +1,5 @@
 # Yahtzee
-Ho implementato questo popolare gioco di dadi chiamato Yahtzee implementato in React. 
+Ho implementato questo popolare gioco di dadi chiamato Yahtzee con React. 
 
 ## COME SI GIOCA
 L'obiettivo del gioco è quello di completare tutte le righe dei punteggi con il massimo punteggio
