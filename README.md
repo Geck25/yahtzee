@@ -4,7 +4,7 @@ Ho implementato questo popolare gioco di dadi chiamato Yahtzee con React.
 ## COME SI GIOCA
 L'obiettivo del gioco è quello di completare tutte le righe della tabella con il massimo punteggio
 possibile. Per completare una riga è possibile fare un massimo di tre lanci con la possibilità
-di poter bloccare (attraverso un click sopra il dado) i dadi che si ritengano adeguati e quindi di non cambiare il loro valore al tiro successivo
+di poter bloccare (attraverso un click sopra il dado) i dadi che si ritengono adeguati e quindi di non cambiare il loro valore al tiro successivo
 
 ## PUNTEGGI
 I punteggi sono:
@@ -13,7 +13,7 @@ I punteggi sono:
 - ***Doppio***: ci deve essere almeno una coppia di dadi uguali, punteggio fisso di 10 punti
 - ***Due doppi***: ci devono essere due coppie di dadi uguali, punteggio fisso di 20 punti
 - ***Triplo***: ci devono essere almeno tre dadi uguali, il punteggio è la somma di tutti i dadi
-- ***Quadruplo***: ci devono essere almeno quadruplo dadi uguali, il punteggio è la somma di tutti i dadi
+- ***Quadruplo***: ci devono essere almeno quattro dadi uguali, il punteggio è la somma di tutti i dadi
 - ***Scala minima***: ci deve essere una scala formata da almeno quattro dadi, punteggio fisso di 30 punti
 - ***Scala massima***: ci deve essere una scala formata da tutti e cinque i dadi, punteggio fisso di 40 punti
 - ***Yahtzee***: tutti e cinque i dadi uguali, punteggio fisso di 50 punti
